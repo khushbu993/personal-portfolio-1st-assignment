@@ -1,0 +1,217 @@
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto';
+    font-size: 14px;
+    position: relative;
+}
+/*Menu-bar-start*/
+ul{
+    list-style-type: none;
+    float: right;
+}
+li{
+    float: left;
+    border-right: 2px solid #4a4b58; 
+    margin: 20px 20px 30px 0;
+}
+li:last-child{
+    border-right: none;
+}
+li a{
+    color: #4a4b58;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+li a:hover{
+    color:#741ffd;
+}
+
+.active{
+    color: tomato;
+}
+/*Menu-bar-end*/
+/*top & mid-banner-start*/
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    line-height: 96px;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 80px;
+}
+.top-banner-txt{
+    color: dimgray;
+    text-align: justify;
+    margin-bottom: 40px;
+    top: 358px;
+}
+.gray-highlight{
+    color: #363958;
+}
+.orange-highlight{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    top: 442px;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 15px 50px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+.link-button:hover{
+    background-image: linear-gradient(to right, #a572f8, #741ffd )
+}
+/*top & mid-banner-end*/
+/*Project-area-banner-start*/
+.project-area{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 1201px;
+    background: #F8F9FC;;
+}
+.project-area h2{
+    padding-top: 15px;
+    text-align: center;
+}
+.project-fg{
+    width: 343.54px;
+    height: 213.23px;
+    left: 148px;
+    margin: 13px 13px 0px 13px;
+}
+.project-area h3{
+    margin-left: 15px;
+}
+.project-area p{
+    margin-left: 15px;
+}
+.project-bg{
+    position: relative;
+    width: 370px;
+    height: 340px;
+    top: 18px;
+    left: 35px;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    margin: 10px;
+}
+/*Project-area-banner-end*/
+/*bottom-banner-start*/
+.inquiry img{
+    position: absolute;
+    width: 906px;
+    height: 223px;
+    left: 172px;
+    top: 1975px;
+}
+.inquiry h3{
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    left: 213px;
+    top: 1995px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: white;
+}
+.inquiry h3:hover{
+    color:#05cfbb;
+}
+.chat-button{
+    position: absolute;
+    left: 869px;
+    top: 2062px;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 15px 50px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    font-style: normal;
+}
+.chat-button:hover{
+    background-image: linear-gradient(to right,#83fac8, #02cc78 )
+}
+.s-m h4{
+    position: absolute;
+    left: 555px;
+    top: 2224px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 24px;
+    color: #696871;
+}
+.s-m h3{
+    position: absolute;
+    left: 449px;
+    top: 2261px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
+.fa-facebook{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 480px;
+    top: 2355px;
+    font-size: 50px;
+    color: #0361c0;
+}
+.fa-instagram{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 585px;
+    top: 2355px;
+    font-size: 50px;
+    color: #ec0a0a;
+}
+.fa-twitter{
+    position: absolute;
+    width: 36.04px;
+    height: 36px;
+    left: 706px;
+    top: 2355px;
+    font-size: 50px;
+    color: #03b2f7;
+}
+/*bottom-banner-end*/
+/*footer-start*/
+footer{
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    left: 475px;
+    top: 2408px;
+    color: #363958;
+}
+/*footer-end*/
